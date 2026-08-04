@@ -20,7 +20,7 @@
     </properties>
 
     <modules>
-
+        <module>common-lib</module>
     </modules>
     <dependencyManagement>
 
