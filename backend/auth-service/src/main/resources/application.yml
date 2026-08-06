@@ -1,0 +1,17 @@
+#Application.yaml
+spring:
+  application:
+    name: document-approval-auth-service
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+    com.snehal.documentapproval: DEBUG
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator
